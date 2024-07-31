@@ -1,0 +1,46 @@
+#list {
+    width: 100%;
+    height: 150px;
+    margin-top: 3px;
+    overflow: auto;
+
+    ul {
+        li {
+            width: calc(40vw + 26px);
+            height: 40px;
+            border-radius: 4px;
+            margin-bottom: 3px;
+            background-color: rgb(199, 199, 199);
+            color: black;
+            display: flex;
+            align-items: center;
+            padding-left: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            
+            span.material-symbols-outlined {
+                color: brown;
+                cursor: pointer;
+            }
+
+            span.material-symbols-outlined:hover {
+                color: rgb(216, 64, 64);
+            }
+        }
+
+        span.complete {
+            text-decoration: line-through;
+        }
+
+    }
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    
+}
+
+::-webkit-scrollbar-thumb {
+    width: 0;
+}
